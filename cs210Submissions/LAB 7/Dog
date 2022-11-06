@@ -1,0 +1,34 @@
+public class Dog {
+
+    private double heightIn;
+    private int ageYears;
+    private String name;
+    private boolean likesBarking;
+
+    public void setHeight(double height) {
+        heightIn = height;
+    }
+    public void setAge(int age) {
+        ageYears = age;
+    }
+    public void setName(String name) {
+        name = name;
+    }
+    public void setLikesBarking(boolean likesBarking) {
+        likesBarking = likesBarking;
+    }
+
+    public double getHeight() {
+        return heightIn;
+    }
+    public int getAge() {
+        return ageYears;
+    }
+    public String getName() {
+        return name;
+    }
+
+    public boolean getLikesBarking() {
+        return likesBarking;
+    }
+}
